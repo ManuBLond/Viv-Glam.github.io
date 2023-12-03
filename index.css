@@ -1,0 +1,359 @@
+*{
+    text-decoration: none;
+    overflow-x: hidden;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+   
+@font-face {
+    font-family: 'Lobster Two';
+    src: url('./font-family/LobsterTwo.woff2') format('woff2'), /* Modern Browsers */
+         url('./font-family/LobsterTwo.woff') format('woff'); /* Older Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Lobster Two', cursive;
+    padding: 0;
+}
+h2 {
+    
+    font-size: 50px;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+/* CSS for the checkmark icons */
+nav ul li i {
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Style for the navigation */
+nav {
+    background-color: #f62364;
+    color: white;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ /* Style for the section with "Vivid Glamour" */
+ section {
+    text-align: center; /* Center-align the content within the section */
+    /*padding: 50px 0; /* Add some padding for spacing */
+}
+.vivid-tag h1 {
+          font-size: 50px;
+}
+
+ /* Styling for the parent div */
+ .parent-div {
+    width: 95%; /* 60% width */
+            margin: 20px auto; /* Center the div */
+            text-align: center; /* Center-align the content */
+}
+
+/* Styling for the text-with-lines div */
+.text-with-lines {
+    width: 60%; /* 60% width */
+    margin: 0 auto; /* Center the div */
+    text-align: center; /* Center-align the text content */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.links a {
+    color: black;
+} 
+/* Styling for the lines */
+.before-line,
+.after-line {
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    background-color: #a7a7a7;
+    margin-top: 0; /* Adjust margin as needed */
+    vertical-align: middle; /* Align lines vertically */
+}
+.whitespace {
+    width: auto; /* Define the desired width */
+    height: 50px; /* Define the desired height */
+    /*background-color: aliceblue; /* Set the background color to white */
+    /* Additional styling if needed */
+    border: 1px dotted #bbc9d3;
+  }
+
+
+  .image-container {
+    position: relative; /* Set the container as a positioning context */
+    display: inline-block; /* Ensures the container takes the size of the image */
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    display: block; /* Remove extra space below the image */
+}
+
+.text {
+    position: absolute;
+    top: 50%; /* Position the text 50% from the top */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center; /* Align text in the center */
+    color: white; /* Change text color for better visibility */
+}
+
+
+.text button{
+    background-color: #f62364;
+   /* font-size: 20px;*/
+    width: 120px;
+    height: 40px;
+    border: none;
+    
+}
+.text a{
+    background-color: #f62364;
+    color: white; /* Change text color to white */
+   
+    text-decoration: none; /* Remove default link underline */
+}
+
+ /* Style for the section with class 'tag-line' */
+ .tag-line {
+    text-align: center;
+    padding: 50px;
+   /* background-color: #f5f5f5; /* Change background color as needed */
+}
+
+/* Style for the h2 tag inside the 'tag-line' section */
+.tag-line h2 {
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph inside the 'tag-line' section */
+.tag-line p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#section0 {
+    font-size: 40px;
+}
+/* Style for the 'product-container' */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+   /* background-color: #f9f9f9; /* Change background color as needed */
+}
+
+/* Style for individual 'product' divs */
+.product {
+    width: 300px; /* Adjust product card width */
+   /* background-color: #fff; /* Change background color as needed */
+    border: 1px solid #ddd; /* Border for product card */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for product card */
+    overflow: hidden;
+}
+
+/* Style for product image */
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd; /* Border for the image */
+}
+
+/* Style for product info */
+.product-info {
+    padding: 15px;
+}
+
+.product-info h2 {
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+#add-to-cart {
+    background-color: #f62364;
+    border: none;  
+    color: #a7a7a7; 
+    height: 25px;
+    border-radius: 2px;
+}
+
+/* Style for buttons and icons */
+
+
+/* Style for the review section */
+.review {
+    text-align: center;
+    padding: 20px;
+    /*background-color: #f5f5f5; /* Change background color as needed */
+}
+
+.review p {
+    font-style: italic;
+}
+/* Styles for the discover section */
+.discover-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the text content */
+.text-content {
+    margin-bottom: 20px;
+}
+
+
+
+.text-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styles for the image grid */
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 85%; /* Set a maximum width for the grid */
+    margin: 0 7%; /* Center the grid */
+    overflow: hidden;/* hidden the scrollbar when hovering images */
+}
+
+/* Styles for the image cards */
+.image-card {
+    width: calc(33.33% - 10px); /* Adjust the width of each card */
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Staggered layout effect */
+.image-card:nth-child(odd) {
+    transform: translateY(-10%);
+}
+
+.image-card:nth-child(even) {
+    transform: translateY(10%);
+}
+
+/* Hover effect for the image cards */
+.image-card:hover {
+    transform: translateY(-5px); /* Move the card slightly up on hover */
+    border-color: #aaa; /* Darker border color on hover */
+    background-color: #f9f9f9; /* Background color change on hover */
+}
+/* Button div
+.button-div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Shop button styles 
+.shop-button {
+    padding: 8px 20px;
+    background-color: #f62364;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Shop button hover effect 
+.shop-button:hover {
+    background-color: #c5003e; /* Change to a slightly different shade */
+
+
+
+/* Remove default list styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+/* Style for the 'sec3' section in the 'social-and-about-us' section */
+.sec3 {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: justify;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Style for the social icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+.social-icons li a i {
+   font-size: 26px;
+   margin-top: 6px;
+   color: #f62364;
+}
+.social-icons a {
+    display: inline-grid;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(209 206 202);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+footer p {
+    font-size: 20px;
+}
+
